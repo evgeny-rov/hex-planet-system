@@ -1,0 +1,46 @@
+.app {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.hex_input {
+  height: fit-content;
+  font-family: monospace;
+  width: min(100%, 64ch);
+  background: none;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 0.2rem;
+}
+
+.hashes_list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  color: rgb(75, 78, 70);
+  font-family: monospace;
+  font-weight: 100;
+  font-size: 0.5rem;
+
+}
+
+.planet_system {
+  flex: 1 0 25rem;
+  position: relative;
+  height: 25rem;
+  display: grid;
+  place-items: center;
+}
