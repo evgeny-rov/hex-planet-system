@@ -77,7 +77,7 @@ const App = () => {
   return (
     <div className={classes.app}>
       <header className={classes.header}>
-        <HashesList hashes={hashes} />
+        <HashesList hashes={[userHash, ...hashes]} />
         <input
           className={classes.hex_input}
           type="text"
